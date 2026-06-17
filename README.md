@@ -1,20 +1,25 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Interactive Effect Simulator
 
-# Run and deploy your AI Studio app
+An interactive, real-time particle effect simulator featuring customized physics for dynamic snowflakes and floating balloons built using React, Vite, and Framer Motion.
 
-This contains everything you need to run your app locally.
+## 🚀 Core Features
 
-View your app in AI Studio: https://ai.studio/apps/df00ec8d-6012-4ba2-89b8-9d8608dfee1e
+- **Dynamic Particle Physics:** Real-time generation of custom interactive assets mimicking natural wind and gravity.
+- **Atmosphere System Controls:** Fine-tune system behaviors, speeds, and generation densities through a clean configuration dashboard.
+- **Fully Responsive Architecture:** Designed with modern UI elements optimized for fluid frame rates across desktop and mobile browsers.
 
-## Run Locally
+## 🛠️ Technology Stack
 
-**Prerequisites:**  Node.js
+- **Frontend Core:** React 18, TypeScript
+- **Build Pipeline & Tooling:** Vite, SWC
+- **Styling & Motion Elements:** Tailwind CSS / Lucide React
 
+## 💻 Local Implementation Guide
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Prerequisites
+Ensure you have [Node.js](https://nodejs.org/) installed on your environment.
+
+1. **Clone the Repository & Navigate:**
+```bash
+   git clone [https://github.com/tsingh-cse/Interactive-Effect-Simulator.git](https://github.com/tsingh-cse/Interactive-Effect-Simulator.git)
+   cd Interactive-Effect-Simulator
